@@ -43,7 +43,7 @@ s4d.client.on('message', async (s4dmessage) => {
   if ((s4dmessage.content) == '*ping') {
     s4dmessage.channel.send(String('pong!'));
   }
-
+   
 });
 
                 s4d;
